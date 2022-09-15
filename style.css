@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: white;
+}
+.step1 {
+    display: flex;
+    justify-content: center;
+}
+.first-box {
+    background-image: url('/images/images\ \(2\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 360px;
+}
+.my-icons {
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+.icon-box {
+    gap: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav-bar {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-color: rgb(241, 60, 60);
+    width: 5%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 60%;
+    height: 20px;
+}
+.flex {
+    text-transform: uppercase;
+    margin-right: 200px;
+    color: rgb(221, 35, 35);
+
+}
+ul li {
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 10px;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.562);
+    font-weight: bold;
+}
+.home {
+    color: rgba(255, 0, 0, 0.568);
+}
+h3 {
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+h4 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+}
+button {
+    text-transform: uppercase;
+    background-color: rgb(233, 44, 44);
+    padding: 10px;
+    font-size: 8px;
+    color: white;
+    border: none;
+    margin-top: 13px;
+    border-radius: 3px;
+    position: relative;
+    left: 450px;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.dot1, .dot2, .dot3 {
+    border-radius: 100%;
+    background-color: black;
+    height: 8px;
+    width: 8px;
+    margin-top: 20px;
+}
+.dot2,.dot3 {
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.our {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.836);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.help {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.562);
+    display: flex;
+    justify-content: center;
+}
+.flex-container {
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    margin: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    left: 100px;
+}
+.flex-container .box1 {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color:#44ce49;
+    float: left;
+    margin-left: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.flex-container .box2 {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color:orange;
+    float: left;
+    margin-left: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.flex-container .box3 {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: blue;
+    float: left;
+    margin-left: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.flex-container .box4{
+position: relative;
+width: 180px;
+height: 180px;
+background-color:green;
+float: left;
+margin-left: 10px;
+box-sizing: border-box;
+overflow: hidden;
+}
+.flex-container .box1 .icon1 .fa {
+    top: 80px;
+    position: absolute;
+    left:80px;
+    color: white;
+}
+.flex-container .box2 .icon2 .fa {
+    top: 80px;
+    position: absolute;
+    left: 80px;
+    color: white;
+}
+.flex-container .box3 .icon3 .fa {
+    top: 80px;
+    position: absolute;
+    left: 80px;
+    color: white;
+}
+.flex-container .box4 .icon4 .fa {
+    top: 80px;
+    position: absolute;
+    left: 80px;
+    color: white;
+}
+.grid-box {
+    margin: 100px;
+    margin-top: 50px;
+}
+.grid-box .box5 {
+    width: 180px;
+    height: 180px;
+    background-image: url(/images/images\ \(2\).jpeg);
+    position: relative;
+    float: left;
+    margin-left: 150px;
+}
+.grid-box .box6 {
+    width: 180px;
+    height: 180px;
+    background-image: url(/images/images\ \(7\).jpeg);
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+.grid-box .box7 {
+    width: 180px;
+    height: 180px;
+    background-image: url(/images/images\ \(4\).jpeg);
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+.grid-box .box8 {
+    width: 180px;
+    height: 180px;
+    background-image: url(/images/images\ \(5\).jpeg);
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+.grid-lastbox {
+    margin-top: 50px;
+    margin: 100px;
+}
+.grid-lastbox .box9 {
+    width: 180px;
+    height: 180px;
+    background-image: url(/images/images\ \(4\).jpeg);
+    position: relative;
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.grid-lastbox .box10 {
+    width: 180px;
+    height: 180px;
+    background-image: url(/images/images\ \(3\).jpeg);
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.grid-lastbox .box11 {
+    width: 180px;
+    height: 180px;
+    background-image: url(/images/images\ \(7\).jpeg);
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}.grid-lastbox .box12 {
+    width: 180px;
+    height: 180px;
+    background-image: url(/images/images\ \(6\).jpeg);
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
